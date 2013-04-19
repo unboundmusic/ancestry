@@ -4,5 +4,5 @@ require File.join(File.expand_path(File.dirname(__FILE__)), 'ancestry/exceptions
 require File.join(File.expand_path(File.dirname(__FILE__)), 'ancestry/has_ancestry')
 
 module Ancestry
-  ANCESTRY_PATTERN = /\A[0-9a-f]+(\/[0-9a-f]+)*\Z/
+  ANCESTRY_PATTERN = /\A[0-9a-z]+(\/[0-9a-z]+)*\Z/
 end
